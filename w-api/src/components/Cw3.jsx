@@ -1,13 +1,13 @@
 import React from "react";
 import "../CSS/Currentweather.css";
 import Clear from "../weather-api/images/weather-icons/clear.svg";
-function Cw3() {
+const Cw3=({id,main}) =>{
   return (
     <div>
       <div className="displayedcol">
-        <span className="">03:00</span>
+        <span className="">{id}</span>
         <img className="img2" src={Clear} alt="Clear" />
-        <span>8°C</span>
+        <span>{main}</span>
       </div>
     </div>
   );

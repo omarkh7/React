@@ -2,20 +2,21 @@ import React from 'react'
 import "../CSS/Currentweather.css";
 import Mostlycloudy from "../weather-api/images/weather-icons/mostlycloudy.svg";
 
-function Cw1() {
+
+const Cw1 = ({id,main}) => {
   return (
-    <div>
-       <div className="displayedcol">
-              <span className="">03:00</span>
+      <div className="displayedcol">
+              <span className="">{id}</span>
               <img
                 className="img2"
                 src={Mostlycloudy}
                 alt="mostlycloudy"
               />{" "}
-              <span>8°C</span>
+              <span>{main}</span>
             </div>
-    </div>
   )
 }
 
-export default Cw1
+export default Cw1;
+
+
