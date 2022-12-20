@@ -1,9 +1,14 @@
+
 header {
   background-color: #759eda;
   padding: 20px;
   display: flex;
 }
-.button {
-  margin-left: 30px;
-  margin-top: 10px;
+
+.find{
+  background-color: #5879C7;
+  padding: 25px;
+  font-size: 25px;
+  border: none;
+
 }

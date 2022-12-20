@@ -2,59 +2,9 @@
 *{
   background-color: #9ccef4;
   font-weight: 300;
-}
-header {
-  background-color: #759eda;
-  padding: 40px;
-  display: flex;
-}
-.search{
-  font-size: 30px;
-  border:none;
-  outline: none;
-  background-color: transparent;
-  color: white;
+  font-family: Raleway;
 
 }
-::placeholder {
-  color: rgba(255, 255, 255, 0.678);
-}
 
-.find{
-  background-color: #5879C7;
-  padding: 25px;
-  font-size: 25px;
-  border: none;
-}
 
-.img1{
-  width:15%;
-  margin: auto;
-}
-.img2{
-  width:70%;
-  margin: auto;
-}
-.displayedcol{
-display: flex;
-flex-direction: column;
-text-align: center;
-}
-.displayedrow{
-  display: flex;
-  flex-direction: row;
-  width: 80%;
-  margin: auto;
-  }
-.name1{
-color: white;
-margin: auto;
-}
-.name2{
-  margin: auto;
 
-}
-.name3{
-font-weight: 700;  
-  margin: auto;
-  }

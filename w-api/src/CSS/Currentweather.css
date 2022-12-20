@@ -1,0 +1,32 @@
+
+.img1{
+    width:15%;
+    margin: auto;
+  }
+  .img2{
+    width:70%;
+    margin: auto;
+  }
+  .displayedcol{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  }
+  .displayedrow{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    }
+  .name1{
+  color: white;
+  margin: auto;
+  }
+  .name2{
+    margin: auto;
+  
+  }
+  .name3{
+  font-weight: 700;  
+    margin: auto;
+    }
