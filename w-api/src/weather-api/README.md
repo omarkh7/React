@@ -191,6 +191,9 @@ The data will come in JSON format, and will look like this: https://samples.open
 
 **3)** The format you'll need to follow to make API calls is:
 `http://api.openweathermap.org/data/2.5/forecast?q=${CITY_NAME}&cnt=8&units=metric&appid=${YOUR_API_KEY}`
+<!-- API KEY
+e76027b9a5f5fe4859a5352ed5934bf3 -->
+
 
 where CITY_NAME is replaced by the city you're looking for, for example 'London', and YOUR_API_KEY is replaced with... your personal API key, of course.
 
